@@ -1,0 +1,207 @@
+/* Export table button */
+.export {
+    color: #fff;
+    background-color: #808a9e;
+    border-color: #33363d;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 0px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* Space between rows */
+.row {
+  --bs-gutter-x: 0
+}
+
+/* Button */
+.nav_button {
+  color: #fff;
+  background-color: #808a9e;
+  border-color: #343d33;
+  width: 100%;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  margin-left: 0px;
+  margin-right: 0px;
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.nav_button:hover {
+  background-color: #bd6d5a;
+  border-color: #343d33;
+}
+
+.nav_button:focus {
+  background-color: #db5f40;
+  border-color: #343d33;
+  box-shadow: none
+}
+
+.nav_button_pressed {
+  background-color: #db5f40;
+  border-color: #343d33;
+  box-shadow: none
+}
+
+
+
+/* Title Dropdown */
+.dropdown-label {
+    text-align: center;
+    color: #dee1eb;
+    font-size: 20px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+
+/* Table  */
+.dt-table-container__row {
+    padding: 0px 0px;
+    margin-right: auto;
+    /* max-width: 90%; */
+    overflow: auto;
+}
+
+
+/* Country template card */
+.card_content_style {
+  padding: 20px;
+  background-color: #d4dadc6b;
+  border: 2px solid #383838ad;
+  border-radius: 20px;
+}
+
+
+/* Loading */
+.loading_page_gif {
+  background-image: url("loading_page.gif");
+  background-size: 30%;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 40%;
+}
+
+.loading_page_gif * {
+  display: none !important;
+}
+
+
+/* Choro_map selected area */
+.js-plotly-plot .plotly .zoomlayer .select-outline-1 {
+  fill: #a15c4b10;
+  color: #a15c4b10;  
+  stroke:#683b308a;
+  stroke-width: 1;
+  }
+  
+.js-plotly-plot .plotly .zoomlayer .select-outline-2 {
+  fill: #a15c4b10;
+  color: #a15c4b10;
+  stroke:#683b308a;
+  stroke-width: 1;
+  }
+
+
+/* Text */
+.custom_text {
+  font-family: Consolas;
+}
+
+.h1_text {
+  color: #db5f40;
+  text-align: left;
+  display: inline-block;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.cor_text {
+  color: #5c5b5b;
+  font-size: 20px;
+  text-align: left;
+}
+
+.graph_title {
+  color: #db5f40;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+
+/* Grid border */
+.grid_div_top_left {
+  border-bottom: 4px solid #383838ad;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+.grid_div_top_right {
+  border-left: 4px solid #383838ad;
+  border-bottom: 4px solid #383838ad;
+  height: 100%;
+  padding-bottom: 10px;
+}
+
+.grid_div_bot_right {
+  border-left: 4px solid #383838ad;
+  height: 100vh;
+}
+
+
+
+/* Others */
+.flag {
+  width: 50px;
+  height: auto;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.head_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.selected_countrie_div {
+  padding: 20px;
+}
+
+.selected_countrie_co2_div {
+  padding: 20px;
+}
